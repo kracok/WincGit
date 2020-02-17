@@ -1,0 +1,15 @@
+een pop up met het bericht: welkom, wat is jou naam?, 
+en vervolgens de optie om een naam in te vullen 
+en dan op enter te drukken
+een berichtje daarna met het (naam)
+
+nieuw pop up met de text voer een nummer in tussen 0 en 25 
+en de optie om iets in te vullen 
+en de optie om op enter te drukken
+
+een negatief bericht als de speler het fout heeft
+met daarna een optie het nog een keer in te kunnen voeren
+een positief bericht als de speler het goed heeft
+met daarna een totziens bericht als het spel is afgelopen
+
+het spel gaat door als de speler het fout heeft

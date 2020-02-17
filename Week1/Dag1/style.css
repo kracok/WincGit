@@ -1,0 +1,48 @@
+.container1 {
+    margin: 25px;
+    border: 1px solid rgb(0, 23, 85);
+    padding: 25px;
+    border-radius: 25px;
+    width: 500px;
+    background-position: center;
+}
+
+.container2 {
+    margin: 25px;
+    border: 1px solid rgb(0, 23, 85);
+    padding: 25px;
+    border-radius: 25px;
+    width: 500px;
+    background-position: center;
+}
+
+.page {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    font-family: verdana;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+}
+
+.button-green {
+    border: 2px solid rgb(0, 255, 13);
+    padding: 15px;
+    width: 200px;
+    border-radius: 10px;
+    margin-right: auto;
+}
+.button-red {
+    border: 2px solid rgb(255, 0, 0);
+    padding: 15px;
+    width: 200px;
+    border-radius: 10px;
+    margin-left: auto;
+}

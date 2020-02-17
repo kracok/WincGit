@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Practice Event Handlers</title>
+		<style> 
+			/* Je CSS code gaat hier */
+            .blue-background {
+	            background-color: blue; 
+            }
+            .red-background {
+	            background-color: red; 
+            }
+		</style> 
+</head>
+
+<body class='blue-background'>
+    <button id="mybutton" type="button" class="btn-alert" onclick="alarm()">Alert Me!</button>
+    <button id='secondbutton' type='button' onclick='toggleBackground()'>Change Backgropund</button>
+		<script> 
+			/* Je JavaScript code schrijf je hier */
+            
+            function alarm(){
+                alert('Button clicked. You have been alerted!')
+            }
+
+            function toggleBackground(){
+            document.body.classList.toggle("red-background");
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+                alarm();
+                toggleBackground();
+            })
+
+		</script>
+</body>
+</html>

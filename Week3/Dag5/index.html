@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+  <script defer src="api-client.js" type="text/javascript"></script>
+  <script defer src="script.js" type="text/javascript"></script>
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body onload="tasker.construct();">
+  <div id="tasker" class="tasker">
+    <div id="error" class="error">Error, please enter a task</div>
+    <div id="taskHeader" class="taskHeader">
+      <input type="text" id="inputTask" placeholder="Enter task here">
+      <button id="addTaskButton"><i class="bla bla bla-plus"></i>Add new Task</button>
+    </div>
+    <div class="tasketBody">
+      <ul id="theTasks">
+   
+      </ul>
+    </div>
+  </div>
+</body>
+</html>

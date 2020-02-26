@@ -1,0 +1,10 @@
+W4D2-1 
+
+CSS specificity
+
+Hoe specifieker een HTML element is geselecteerd, hoe hoger de prioritijd de meegeven waardes heeft. 
+Bijvoorbeeld: De laatste regel code heeft overschrijft altijd de vorige, maar als een element met een class in een div zit en de div krijgt een waarde maar de class krijgt een andere waarde wordt de waarde van de class toegepast (uitraard alleen op die class)
+Ook als een element in een element wordt geselecteerd krijgt die voorrang op de 'parent' element, bijvoorbeeld:
+div p heeft prioritijd boven div.
+De prioritijten "ranglijst" gaat als volgt (laag naar hoog):
+Element-Class-ID-Inline style (de style die in de HTML wordt geschreven)-!important (nooit !important gebruiken)

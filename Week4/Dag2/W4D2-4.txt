@@ -1,0 +1,9 @@
+W4D2-4
+
+CSS Selectors
+
+Een snellere manier, en slimmere, om HTML elementen te selecteren. Naast de standaard element, class en ID selectors zijn er nog meer manieren om iets te selecteren uit de Dom. Er zijn er te veel om zo op te noemen maar het idee is als je iets specifieks wil selecteren is er een selector voor, een paar voorbeelden:
+* = selecteer alles
+div > p = selecteerd alleen alle directe p "childeren" van de div
+h1 + h2 = selecteerd alle h2 die een direct voorliggende h1 hebben
+h1 ~ h2 = selecteerd alle h2 die achter een h1 staan, maakt niet uit of het direct er achter staat of niet

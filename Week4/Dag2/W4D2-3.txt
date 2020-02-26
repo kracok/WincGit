@@ -1,0 +1,5 @@
+W4D2-3
+
+CSS Grid
+
+Grid is heel simpel en lijkt erg veel op Flexbox maar dan twee dimentionaal. Het is heel handig om content op een website goed onder en naast elkaar te plaatsen, letterlijk in een grid.

@@ -1,0 +1,6 @@
+W4D2-2
+
+CSS Flexbox
+
+Flexbox is heel simpel en lijkt erg veel op Grid. Het is een "bar" die één dementionaal is. het wordt meestal gebruikt als navigatie bar.
+Met flexbox kan je makkelijk en snel elementen netjes naast/onder elkaar zetten.
